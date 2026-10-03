@@ -1,4 +1,4 @@
- #include<stdio.h>
+#include<stdio.h>
 int main(){
 
 int a,b,c;
@@ -13,4 +13,22 @@ if(a>b&&a>c){
 
 }
 if(b>a&&b>c){
-...
+    printf("%d is a greatest number",b);
+}
+if(c>a&&c>b){
+    printf("%d is a greatest number",c);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    return 0;
+}
