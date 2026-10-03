@@ -1,0 +1,16 @@
+ #include <stdio.h>
+int main(){
+
+int n;
+printf("Enter a number::");
+scanf("%d",&n);
+float a=100;
+for(int i=1; i<=n; i++){
+    printf("%f ",a);
+    a=a/2;
+}
+
+
+// float a=100;
+//while(i<=n){
+...
